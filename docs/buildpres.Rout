@@ -57,4 +57,4 @@ Output created: docs/sample.html
 > 
 > proc.time()
    user  system elapsed 
-  2.264   0.120   3.116 
+  2.896   0.188   3.947 
