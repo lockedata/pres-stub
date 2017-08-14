@@ -1,5 +1,5 @@
 
-R version 3.4.0 (2017-04-21) -- "You Stupid Darkness"
+R version 3.4.1 (2017-06-30) -- "Single Candle"
 Copyright (C) 2017 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -57,4 +57,4 @@ Output created: docs/sample.html
 > 
 > proc.time()
    user  system elapsed 
-  2.896   0.188   3.947 
+  1.532   0.120   1.991 
