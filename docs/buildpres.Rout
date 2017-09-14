@@ -1,5 +1,5 @@
 
-R version 3.4.1 (2017-06-30) -- "Single Candle"
+R version 3.4.1 (2017-01-27) -- "Single Candle"
 Copyright (C) 2017 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -51,10 +51,8 @@ List of 1
 
 output file: sample.knit.md
 
-/usr/bin/pandoc +RTS -K512m -RTS sample.utf8.md --to revealjs --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output /home/travis/build/lockedata/pres-stub/docs/sample.html --smart --email-obfuscation none --self-contained --template /home/travis/R/Library/revealjs/rmarkdown/templates/revealjs_presentation/resources/default.html --variable center=false --slide-level 2 --variable theme=lockedata --variable transition=default --variable backgroundTransition=default --variable history=true --variable "height='1080'" --variable "width='1920'" --variable "margin='0.05'" --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --variable revealjs-url=/home/travis/R/Library/revealjs/reveal.js-3.3.0.1 --highlight-style pygments 
-
-Output created: docs/sample.html
-> 
-> proc.time()
-   user  system elapsed 
-  1.532   0.120   1.991 
+/usr/bin/pandoc +RTS -K512m -RTS sample.utf8.md --to revealjs --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output /home/travis/build/lockedata/pres-stub/docs/sample.html --smart --email-obfuscation none --self-contained --template /home/travis/R/Library/revealjs/rmarkdown/templates/revealjs_presentation/resources/default.html --variable center=false --slide-level 2 --variable theme=lockedata --variable transition=default --variable backgroundTransition=default --variable history=true --variable "height='1080'" --variable "width='1920'" --variable "margin='0.05'" --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --variable revealjs-url=/home/travis/R/Library/revealjs/revealjs --highlight-style pygments 
+pandoc: Could not fetch /home/travis/R/Library/revealjs/revealjs/css/reveal.css
+/home/travis/R/Library/revealjs/revealjs/css/reveal.css: openBinaryFile: does not exist (No such file or directory)
+Error: pandoc document conversion failed with error 67
+Execution halted
